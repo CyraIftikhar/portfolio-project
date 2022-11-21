@@ -92,9 +92,14 @@ p {
   background: var(--branding-color);
   border-radius: 4px;
   color: white;
+  text-decoration: none;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding:hover {
+  color: white;
 }
 
 .btn-branding-outline {
@@ -102,8 +107,47 @@ p {
   border: 1px solid var(--branding-color);
   border-radius: 4px;
   font-size: 18px;
+  text-decoration: none;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  color: white;
+}
+
+.contact-button {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.contact-button:hover {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.tech-icons {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 60px;
+  color: var(--branding-color);
+}
+
+.technologies {
+  background-color: var(--secondary-color);
 }
 
 .project-desciption {
