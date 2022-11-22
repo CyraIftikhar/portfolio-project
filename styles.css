@@ -118,7 +118,7 @@ p {
 }
 
 .contact-button {
-  color: var(--branding-color);
+  color: white;
   border: 1px solid var(--branding-color);
   border-radius: 4px;
   font-size: 18px;
@@ -137,6 +137,29 @@ p {
   padding: 15px 30px;
 }
 
+.about-button {
+  color: var(--branding-color);
+  background: none;
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 27px;
+  padding: 15px 30px;
+  position: relative;
+  right: -30px;
+}
+
+.about-button:hover {
+  color: white;
+  background-color: var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
 .tech-icons {
   text-align: center;
   display: block;
@@ -148,6 +171,7 @@ p {
 
 .technologies {
   background-color: var(--secondary-color);
+  padding: 0 25%;
 }
 
 .project-desciption {
