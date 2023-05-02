@@ -170,9 +170,20 @@ p {
   color: var(--branding-color);
 }
 
+.tech-icons i {
+  transform: scale(1.5);
+  margin: 0;
+  padding: 0;
+  }
+
+  .tech-icons .col {
+    margin: 0;
+    padding: 0;
+  }
+
 .technologies {
   background-color: var(--secondary-color);
-  padding: 0 25%;
+  padding: 2% 25%;
 }
 
 .project-desciption {
